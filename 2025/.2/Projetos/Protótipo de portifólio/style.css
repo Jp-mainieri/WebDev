@@ -17,19 +17,3 @@ main {
     padding: 50px;
     width: 60vw;
 }
-p {
-    color: #393939;
-}
-h3 {
-    color: #111128;
-}
-.textoAmarelo {
-    color: yellow;
-}
-.textoRosa {
-    color: pink;
-}
-#Big:hover {
-    position: absolute;
-    font-size: 90px;
-}
