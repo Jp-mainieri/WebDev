@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+}
+header {
+    background-color: #111128;
+    color: white;
+    padding: 100px;
+    padding-top: 40vh;
+    margin: 0;
+    width: 30vw;
+}
+main {
+    padding: 50px;
+    width: 60vw;
+}
+p {
+    color: #393939;
+}
+h3 {
+    color: #111128;
+}
+.textoAmarelo {
+    color: yellow;
+}
+.textoRosa {
+    color: pink;
+}
+#Big:hover {
+    position: absolute;
+    font-size: 90px;
+}
