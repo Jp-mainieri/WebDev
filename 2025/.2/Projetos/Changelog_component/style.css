@@ -4,10 +4,12 @@
 
 body {
     margin: 0;
-    padding: 10px 27%;
+    padding: 10px;
     background-color: #fff;
 }
 main {
+    margin: auto;
+    width: 40%;
     border: 2px solid var(--escuro);
     border-radius: 20px;
     font-family: Arial, sans-serif;
