@@ -49,5 +49,14 @@ hr {
   background-color: dodgerblue;
   color: #f4f0ec;
 }
+#date p:focus {
+  background-color: #ff0303;
+}
+
+@media only screen and (max-width: 660px) {
+  main {
+    width: 90vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
