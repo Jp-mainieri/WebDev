@@ -1,0 +1,15 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Desenvolvimento Web - Estudos",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "../../../../node_modules/.bin/sass style.sass style.css",
+    "observar": "../../../../node_modules/.bin/sass --watch style.sass style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.91.0"
+  }
+}
