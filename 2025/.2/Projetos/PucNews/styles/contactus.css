@@ -1,0 +1,32 @@
+@import url(../styles/base.css);
+
+#content article {
+    width: 100%;
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+#formulario input{
+    padding: 2px 50px 2px 5px;
+}
+#formulario button{
+    background-color: gray;
+    padding: 5px 25px;
+    color: white;
+    border: none;
+    box-shadow: 0px 3px 5px black;
+    border-radius: 12px;
+}
+#formulario button:hover{
+    background-color: rgb(83, 83, 83);
+}
+#formulario button:active{
+    box-shadow: 0px 2px 5px black inset;
+}
