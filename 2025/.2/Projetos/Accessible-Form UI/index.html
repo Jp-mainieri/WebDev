@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <article>
+        <section id="personalInput">
+            <div class="formInput">
+                <h3>Full Name</h3>
+                <input type="text" placeholder="How should I call you?"/>
+            </div>
+            <div class="formInput errorInput">
+                <h3>Email</h3>
+                <input type="text" placeholder="joaopedro.mainieri@gmail.com"/>
+                <p>Email is alredy taken</p>
+            </div>
+
+        </section>
+        <section id="passwordInput">
+            <div class="formInput">
+                <h3>Enter Password</h3>
+                <div class="password">
+                    <input type="password" placeholder="xxxxxxxx"/>
+                    <i class="bi bi-eye-fill"></i>
+                </div>
+            </div>
+            <div class="formInput">
+                <h3>Confirm Password</h3>
+                <div class="password">
+                    <input type="password" placeholder="xxxxxxxx"/>
+                    <i class="bi bi-eye-fill"></i>
+                </div>
+            </div>
+        </section>
+        <button class="submitForm">Update Profile</button>
+    </article>
+    <aside>
+        <section id="pCompleteness">
+            <div id="percentage">
+                <p>67%</p>
+            </div>
+            <h2>Profile Completeness</h2>
+        </section>
+        <section id="toDo">
+            <p class="done">Create Account</p>
+            <p class="done">Update Roadmap Progress</p>
+            <p class="done">Setup Public Profile</p>
+            <p>Complete your first project</p>
+            <p>Invite your friends</p>
+        </section>
+    </aside>
+</main>
+</body>
+</html>
