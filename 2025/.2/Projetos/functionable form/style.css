@@ -66,3 +66,6 @@ article {
     margin-top: 10px;
     margin-bottom:0;
 }
+#successfulLogin {
+    color: green;
+}
